@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3989979cd1ad1d142be645c691504ba2, type: 3}
+  m_Name: BoxRowList
+  m_EditorClassIdentifier: 
+  vector3List:
+  - {fileID: 11400000, guid: 3369722414c521f4a986f229e103ba8b, type: 2}
+  - {fileID: 11400000, guid: 8f6160c30af65864c87b526b1397d27e, type: 2}
+  - {fileID: 11400000, guid: b9241bce5b5e7ec48a7e657cd169e9f9, type: 2}
+  - {fileID: 11400000, guid: ce9c708f74e7ba24baed1912e6078aac, type: 2}
+  - {fileID: 11400000, guid: bcaaf33290d2c73489b26a1a78aba209, type: 2}
+  - {fileID: 11400000, guid: bee74d6658471ae43916eea6fe977773, type: 2}
+  - {fileID: 11400000, guid: 0f79494d8b2ef954a8c0ed0584bd31c2, type: 2}
+  - {fileID: 11400000, guid: 1cf74bd6f4ed56e45bb26ec563d64db1, type: 2}
+  - {fileID: 11400000, guid: 704580b8c96854c4c8e6912cd7c0039a, type: 2}
