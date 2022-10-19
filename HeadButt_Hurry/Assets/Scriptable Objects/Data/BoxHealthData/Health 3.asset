@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 767bb288db8d22343b9d823da3fefacb, type: 3}
-  m_Name: BoxRowList
+  m_Script: {fileID: 11500000, guid: 01faedbc391d03c4f9c95ad286563ae6, type: 3}
+  m_Name: Health 3
   m_EditorClassIdentifier: 
-  intdataList:
-  - {fileID: 11400000, guid: 4b79c2f3a5ee6574fb0977f6333d0918, type: 2}
-  - {fileID: 11400000, guid: c8f992fb82cfd7d44a3c69a3cff18ee2, type: 2}
+  value: 3
