@@ -5,7 +5,11 @@ using UnityEngine.Events;
 
 public class BoxHealthBehaviour : MonoBehaviour
 {
-    public UnityEvent HitBlock, DestroyBlock;
+    /*
+    public UnityEvent HitBlock;
+    public GameObject Block;
+    public ID HealthID;
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         HitBlock.Invoke();
@@ -14,6 +18,21 @@ public class BoxHealthBehaviour : MonoBehaviour
         {
             DestroyBlock.Invoke();
         }
-        */
+        
+        HealthSub();
+        
+        
     }
+
+    public void HealthSub()
+    {
+        HealthID.value--;
+        Debug.Log("Oof");
+
+        if(HealthID.value <= 0)
+        {
+            Destroy.Block;
+        }
+    }
+    */
 }

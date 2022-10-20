@@ -5,7 +5,8 @@ using UnityEngine.Events;
 
 public class IDContainerBehaviour : MonoBehaviour
 {
-    public ID idObj;
+    /*
+    public int idObj;
     public IntDataList healthIDDataListObj;
     public UnityEvent startEvent;
     
@@ -18,5 +19,5 @@ public class IDContainerBehaviour : MonoBehaviour
     {
         startEvent.Invoke();
     }
-
+    */
 }

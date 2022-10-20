@@ -5,16 +5,16 @@ using UnityEngine;
 [CreateAssetMenu]
 public class IntDataList : ScriptableObject
 {
-    public List<HealthID> healthIDList;
+    public List<IntData> healthList;
 
-    public HealthID CurrentHealth;
+    public IntData CurrentHealth;
 
     private int num;
     
     public void SetValueRandomly()
     {
-        num = Random.Range(0, healthIDList.Count);
-        CurrentHealth = healthIDList[num];
+        num = Random.Range(0, healthList.Count);
+        CurrentHealth = healthList[num];
         Debug.Log(CurrentHealth);
     }
 
