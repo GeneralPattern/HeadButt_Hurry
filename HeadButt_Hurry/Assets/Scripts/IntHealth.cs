@@ -5,14 +5,21 @@ using UnityEngine.Events;
 
 public class IntHealth : MonoBehaviour
 {
+    
     public IntData Health;
     public GameObject Block;
     public UnityEvent destroyBlock;
+    public IntDataList HealthDataListObj;
+    
+
+    public void Awake()
+    {
+        Health = HealthDataListObj.HealthSO;
+    }
 
     void Start()
     {
-        Health.value = Random.Range(10, 20);
-    
+        
     }
 
     
@@ -22,6 +29,10 @@ public class IntHealth : MonoBehaviour
         {
             subtractHealth();
         }
+        if(other.CompareTag("DeathFloor"))
+        {
+            Destroy(gameObject);
+        }
         
     }
 
@@ -30,8 +41,13 @@ public class IntHealth : MonoBehaviour
         Health.value--;
         if(Health.value <= 0)
         {
-            destroyBlock.Invoke();
+            Destroy(gameObject);
         }
     }
+    
+    
+    
+    
+
 
 }

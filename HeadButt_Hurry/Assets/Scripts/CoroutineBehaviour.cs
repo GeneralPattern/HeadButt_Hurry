@@ -7,11 +7,16 @@ public class CoroutineBehaviour : MonoBehaviour
 {
     public UnityEvent startEvent, startCountEvent, repeatCountEvent, endCountEvent, repeatUntilFalseEvent;
     
+    public IntData Health;
     public bool canRun;
     public IntData counterNum;
+    public IntData counterUpNum;
     public float seconds = 3.0f;
     private WaitForSeconds wfsObj;
     private WaitForFixedUpdate wffuObj;
+
+    public int minHealth =5;
+    public int maxHealth =10;
 
     public bool CanRun
     {
@@ -29,6 +34,8 @@ public class CoroutineBehaviour : MonoBehaviour
     public void StartCounting()
     {
         StartCoroutine(Counting());
+        //StartCoroutine(CountUp());
+    
     }
 
     private IEnumerator Counting()
@@ -47,7 +54,22 @@ public class CoroutineBehaviour : MonoBehaviour
         }
 
         endCountEvent.Invoke();
+        StartCoroutine(CountingUp());
     }
+
+    /*private IEnumerator CountUp()
+    {
+        yield return wffuObj;
+
+        while (counterNum.value > 0)
+        {
+
+            counterNum.value ++;
+            yield return wfsObj;
+
+        }
+    }*/
+
     public void StartRepeatUntilFalse()
     {
         canRun = true;
@@ -63,5 +85,31 @@ public class CoroutineBehaviour : MonoBehaviour
 
         }
     }
-    
+    public IEnumerator CountingUp()
+    {
+
+        yield return wffuObj;
+
+        while (counterNum.value < 20)
+        {
+
+            counterNum.value ++;
+            yield return wfsObj;
+
+        }
+        while (counterNum.value < 40)
+        {
+            minHealth = 10;
+            maxHealth = 15;
+            counterNum.value ++;
+            yield return wfsObj;
+
+        }
+        
+
+    }
+    public void RandomizeHealth()
+    {
+         Health.value = Random.Range(5, 10);
+    }
 }

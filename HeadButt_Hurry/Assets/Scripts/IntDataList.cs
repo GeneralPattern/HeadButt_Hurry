@@ -7,15 +7,15 @@ public class IntDataList : ScriptableObject
 {
     public List<IntData> healthList;
 
-    public IntData CurrentHealth;
+    public IntData HealthSO;
 
     private int num;
     
     public void SetValueRandomly()
     {
         num = Random.Range(0, healthList.Count);
-        CurrentHealth = healthList[num];
-        Debug.Log(CurrentHealth);
+        HealthSO = healthList[num];
+        
     }
 
 
