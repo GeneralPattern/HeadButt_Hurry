@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CR60Y457W",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 28825,
+        "processId": 25127,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,24 @@
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 28825,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.sec.android.app.launcher",
+            "processId": 15751,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 28838,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 25127,
             "exited": false
         }
     ],

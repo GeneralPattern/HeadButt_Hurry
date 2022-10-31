@@ -28,6 +28,7 @@ public class IntHealth : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             subtractHealth();
+
         }
         if(other.CompareTag("DeathFloor"))
         {

@@ -11,7 +11,12 @@ public class PlayerController : MonoBehaviour
     public UnityEvent loseGame;
     private Vector2 startTouchPosition;
     private Vector2 endTouchPosition;
+    public Vector2 playerStartPos;
 
+    private void Awake() 
+    {
+        playerStartPos = transform.position;
+    }
     void Start() 
     {
         player = GetComponent<Rigidbody2D>();
@@ -34,7 +39,8 @@ public class PlayerController : MonoBehaviour
 
             if(endTouchPosition.y > startTouchPosition.y)
             {
-                Jump();
+                    Jump();
+                
             }
         }
         
@@ -42,16 +48,25 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        player.velocity = new Vector2(player.velocity.x, jumpSpeed);
-        canJump = false;
+        if(player.velocity.y > -1 && player.velocity.y <= 0)
+            {
+                player.velocity = new Vector2(player.velocity.x, jumpSpeed);
+                //canJump = false;
+            }
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("DeathFloor"))
         {
+            transform.position = playerStartPos;
             loseGame.Invoke();
             Debug.Log("Loser");
         }
+        if(other.CompareTag("Floor"))
+        {
+            canJump = true;
+        }
+        
     }
 }

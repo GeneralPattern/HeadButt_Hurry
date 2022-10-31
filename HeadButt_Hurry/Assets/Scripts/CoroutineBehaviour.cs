@@ -46,7 +46,7 @@ public class CoroutineBehaviour : MonoBehaviour
 
         while (counterNum.value > 0)
         {
-
+            
             repeatCountEvent.Invoke();
             counterNum.value --;
             yield return wfsObj;
@@ -54,7 +54,7 @@ public class CoroutineBehaviour : MonoBehaviour
         }
 
         endCountEvent.Invoke();
-        StartCoroutine(CountingUp());
+        
     }
 
     /*private IEnumerator CountUp()
