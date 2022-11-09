@@ -50,9 +50,10 @@ public class CoroutineBehaviour : MonoBehaviour
             repeatCountEvent.Invoke();
             counterNum.value --;
             yield return wfsObj;
+            
 
         }
-
+        StartCoroutine(CountingUp());
         endCountEvent.Invoke();
         
     }
@@ -93,18 +94,13 @@ public class CoroutineBehaviour : MonoBehaviour
         while (counterNum.value < 20)
         {
 
+            repeatCountEvent.Invoke();
             counterNum.value ++;
             yield return wfsObj;
+            Debug.Log(counterNum.value);
 
         }
-        while (counterNum.value < 40)
-        {
-            minHealth = 10;
-            maxHealth = 15;
-            counterNum.value ++;
-            yield return wfsObj;
-
-        }
+        
         
 
     }
