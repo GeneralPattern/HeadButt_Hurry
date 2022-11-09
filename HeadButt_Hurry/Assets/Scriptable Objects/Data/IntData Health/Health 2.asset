@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Health 2
   m_EditorClassIdentifier: 
   value: 2
+  name: 2

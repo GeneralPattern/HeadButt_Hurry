@@ -5,7 +5,6 @@ using UnityEngine.Events;
 
 public class IntHealth : MonoBehaviour
 {
-    
     public IntData Health;
     public GameObject Block;
     public UnityEvent destroyBlock;

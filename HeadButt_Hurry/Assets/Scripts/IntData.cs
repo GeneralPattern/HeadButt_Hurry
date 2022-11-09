@@ -5,6 +5,7 @@ using UnityEngine.Events;
 public class IntData : ScriptableObject
 { 
     public int value;
+    public new string name;
 
     public void SetValue(int num)
     {
