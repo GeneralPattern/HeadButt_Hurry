@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "R5CR60Y457W",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "R5CR60Y457W",
+        "name": "com.DefaultCompany.com.unity.template.mobile2D",
+        "processId": 21391,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,26 +11,44 @@
         {
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 28825,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.sec.android.app.launcher",
-            "processId": 15751,
+            "processId": 28740,
             "exited": true
         },
         {
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 28838,
+            "processId": 29961,
             "exited": true
         },
         {
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 25127,
+            "processId": 30766,
             "exited": true
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 7145,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 18623,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 20918,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 21391,
+            "exited": false
         }
     ],
     "m_Tags": {
