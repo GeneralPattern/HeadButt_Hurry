@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -3332676333740526262}
   - component: {fileID: 693440521823868943}
   - component: {fileID: 6777292978162398727}
+  - component: {fileID: -2381802321746444116}
   m_Layer: 0
   m_Name: Box
   m_TagString: Floor
@@ -101,7 +102,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016863942, y: -0.03934923}
+  m_Offset: {x: 0.020712733, y: -0.030112103}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -112,7 +113,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.538502, y: 0.48603636}
+  m_Size: {x: 0.5431205, y: 0.45524588}
   m_EdgeRadius: 0
 --- !u!61 &-3332676333740526262
 BoxCollider2D:
@@ -127,7 +128,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.011242628, y: 0.008337259}
+  m_Offset: {x: 0.018940315, y: 0.016689837}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -138,7 +139,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.54224956, y: 0.5889044}
+  m_Size: {x: 0.6377001, y: 0.65225446}
   m_EdgeRadius: 0
 --- !u!50 &693440521823868943
 Rigidbody2D:
@@ -190,4 +191,44 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  rockCollide:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -2381802321746444116}
+        m_TargetAssemblyTypeName: BoxHealthDisplay, Assembly-CSharp
+        m_MethodName: changeHealth
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   HealthDataListObj: {fileID: 11400000, guid: 1ee5e1b16c844ad4fa2df4a5bcbeb419, type: 2}
+--- !u!114 &-2381802321746444116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657104247988627017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c653570582b550748b26d6ed0599aaf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 8223914638115948564}
+  Health: {fileID: 0}
+  HealthDataListObj: {fileID: 11400000, guid: 1ee5e1b16c844ad4fa2df4a5bcbeb419, type: 2}
+  health1: {fileID: 21300000, guid: 92553ca4ec9ab214bacbc06cdd73b60a, type: 3}
+  health2: {fileID: 21300000, guid: 775f30ea881cf7249bb7333995911bc4, type: 3}
+  health3: {fileID: 21300000, guid: 61bf54db860312a4aa214a2e5792df8c, type: 3}
+  health4: {fileID: 21300000, guid: efaebca0201ad2d429900d0da9cb4f74, type: 3}
+  health5: {fileID: 21300000, guid: c954f17ee23121c488bed2105fb91bb8, type: 3}
+  health6: {fileID: 21300000, guid: 70d6476a82ffb4d40b4642840871e537, type: 3}
+  health7: {fileID: 21300000, guid: 9f5d9e9ba2908b648a2413bb4e8a7489, type: 3}
+  health8: {fileID: 21300000, guid: 419bf20dce6f40f49a2d9c2c70249653, type: 3}
+  health9: {fileID: 21300000, guid: be016503fa93dbc42a296b9e818d0686, type: 3}
+  health10: {fileID: 21300000, guid: 03657ce606367e84fb7fa9a9e2ad2122, type: 3}

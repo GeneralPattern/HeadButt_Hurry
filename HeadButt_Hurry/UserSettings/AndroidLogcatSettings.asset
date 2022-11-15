@@ -3,29 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "R5CR60Y457W",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 21391,
+        "processId": 8716,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 28740,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 29961,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 30766,
-            "exited": true
-        },
         {
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
@@ -36,18 +18,24 @@
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 18623,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 20918,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 21391,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 8716,
             "exited": false
         }
     ],

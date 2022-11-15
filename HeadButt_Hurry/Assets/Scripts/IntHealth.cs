@@ -7,7 +7,7 @@ public class IntHealth : MonoBehaviour
 {
     public IntData Health;
     public GameObject Block;
-    public UnityEvent destroyBlock;
+    public UnityEvent destroyBlock, rockCollide;
     public IntDataList HealthDataListObj;
     
 
@@ -27,6 +27,7 @@ public class IntHealth : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             subtractHealth();
+            rockCollide.Invoke();
 
         }
         if(other.CompareTag("DeathFloor"))

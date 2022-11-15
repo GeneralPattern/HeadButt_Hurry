@@ -7,6 +7,7 @@ public class CoroutineBehaviour : MonoBehaviour
 {
     public UnityEvent startEvent, startCountEvent, repeatCountEvent, endCountEvent, repeatUntilFalseEvent;
     
+    public IntData highScore;
     public IntData Health;
     public bool canRun;
     public IntData counterNum;
@@ -34,7 +35,7 @@ public class CoroutineBehaviour : MonoBehaviour
     public void StartCounting()
     {
         StartCoroutine(Counting());
-        //StartCoroutine(CountUp());
+
     
     }
 
@@ -58,18 +59,6 @@ public class CoroutineBehaviour : MonoBehaviour
         
     }
 
-    /*private IEnumerator CountUp()
-    {
-        yield return wffuObj;
-
-        while (counterNum.value > 0)
-        {
-
-            counterNum.value ++;
-            yield return wfsObj;
-
-        }
-    }*/
 
     public void StartRepeatUntilFalse()
     {
@@ -91,14 +80,18 @@ public class CoroutineBehaviour : MonoBehaviour
 
         yield return wffuObj;
 
-        while (counterNum.value < 20)
+        while (canRun == true)
         {
 
             repeatCountEvent.Invoke();
             counterNum.value ++;
             yield return wfsObj;
-            Debug.Log(counterNum.value);
 
+        }
+
+        if(counterNum.value > highScore.value)
+        {
+            highScore.value = (counterNum.value);
         }
         
         
