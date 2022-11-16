@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8825973797aef494e899beeef04abe49, type: 3}
-  m_Name: Health 10
+  m_Name: Background number
   m_EditorClassIdentifier: 
-  value: 25
+  value: 3
   name: 
