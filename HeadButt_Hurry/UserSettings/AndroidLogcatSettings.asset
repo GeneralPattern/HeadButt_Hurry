@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CR60Y457W",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 15687,
+        "processId": 14969,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -114,6 +114,12 @@
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 15687,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 14969,
             "exited": false
         }
     ],

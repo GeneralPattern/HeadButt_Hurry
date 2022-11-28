@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8825973797aef494e899beeef04abe49, type: 3}
-  m_Name: HighScore
+  m_Script: {fileID: 11500000, guid: f57799ae6bd0c7c438540601f1519a93, type: 3}
+  m_Name: DataStorage
   m_EditorClassIdentifier: 
-  value: 0
-  name: 
+  data: {fileID: 11400000, guid: 135bb2d97339e134f99ede6a4776f081, type: 2}
+  listData: []
