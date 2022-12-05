@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "R5CR60Y457W",
     "m_SelectedPackage": {
-        "deviceId": "R5CR60Y457W",
-        "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 14969,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,115 +11,31 @@
         {
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 7145,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 18623,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 20918,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 21391,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 8716,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 16434,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 17728,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 18241,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 20431,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 20802,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 22039,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 23009,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 23765,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 24472,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 25579,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 25982,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 14380,
-            "exited": false
-        },
-        {
-            "deviceId": "R5CR60Y457W",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 15687,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CR60Y457W",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 14969,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 21178,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 23954,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CR60Y457W",
+            "name": "com.sec.android.app.launcher",
+            "processId": 3146,
             "exited": false
         }
     ],
